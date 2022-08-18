@@ -2,16 +2,26 @@
   font-family: "Roboto", sans-serif;
 }
 .navbar img {
-  margin-right: 20px;
-  width: 50px;
+  margin-left: 50px;
+  width: 60px;
   height: 40px;
 }
+.navbar-brand{
+  padding-left: 20px;
+}
+
+.navbar .navbar-nav {
+  margin-right: 90px;
+  padding right: 250px;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #3f71ea;
+  text-decoration-color: #3f71ea;
+}
 .navbar .navbar-nav .nav-link:hover{
-  color: #000;
+  color: #3f71ea;
 }
-.navbar .nav-dropdown .nav-link:hover{
-  background-color: #000;
-}
+
 .navbar {
   background-color: #ce49bf;
   font-family: 'Oswald', sans-serif;
