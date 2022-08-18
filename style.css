@@ -6,9 +6,15 @@
   width: 50px;
   height: 40px;
 }
+.navbar .navbar-nav .nav-link:hover{
+  color: #000;
+}
+.navbar .nav-dropdown .nav-link:hover{
+  background-color: #000;
+}
 .navbar {
   background-color: #ce49bf;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 #program {
   background-color: #ce49bf;
@@ -72,6 +78,7 @@ section {
 
 .footer-distributed .footer-left {
   width: 30%;
+  padding-bottom: 20px;
 }
 
 .footer-distributed h3 {
@@ -89,10 +96,11 @@ section {
 .footer-distributed .footer-links {
   color: #ffffff;
   margin: 20px 0 12px;
+  display: block;
 }
 
 .footer-distributed .footer-links a {
-  display: inline-table;
+  display: block;
   line-height: 1.8;
   text-decoration: none;
   color: inherit;
@@ -109,6 +117,7 @@ section {
 
 .footer-distributed .footer-center {
   width: 35%;
+  padding-top: 2px;
 }
 
 .footer-distributed .footer-center i {
@@ -121,7 +130,7 @@ section {
   color: #ffffff;
   text-align: center;
   line-height: 35px;
-  margin-right: 3px;
+  margin-right: 10px;
   margin-bottom: 5px;
 }
 
@@ -134,7 +143,7 @@ section {
   display: inline-block;
   color: #ffffff;
   vertical-align: middle;
-  margin: 0;
+  margin: 0px;
 }
 
 .footer-distributed .footer-center p span {
@@ -198,8 +207,8 @@ section {
 }
 .footer-bottom {
   text-align: center;
+  background-color: #ce49bf;
   padding: 10px;
-  background-color: #000;
   color: white;
 }
 
@@ -306,4 +315,7 @@ section {
 }
 .table {
   padding-top: 10px;
+}
+.footer-distributed .footer-left h1 {
+  font-family: 'Oswald', sans-serif;
 }
