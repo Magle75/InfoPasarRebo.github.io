@@ -6,25 +6,21 @@
   width: 60px;
   height: 40px;
 }
-.navbar-brand{
+.navbar-brand {
   padding-left: 20px;
 }
 
 .navbar .navbar-nav {
-  margin-right: 90px;
-  padding right: 250px;
+  padding-right: 30px;
 }
-.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
-  background-color: #3f71ea;
-  text-decoration-color: #3f71ea;
-}
-.navbar .navbar-nav .nav-link:hover{
-  color: #3f71ea;
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #554994;
 }
 
 .navbar {
   background-color: #ce49bf;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 #program {
   background-color: #ce49bf;
@@ -88,7 +84,6 @@ section {
 
 .footer-distributed .footer-left {
   width: 30%;
-  padding-bottom: 20px;
 }
 
 .footer-distributed h3 {
@@ -99,6 +94,27 @@ section {
 
 .footer-distributed h3 span {
   color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-table;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
 }
 
 /* Footer links */
@@ -327,5 +343,5 @@ section {
   padding-top: 10px;
 }
 .footer-distributed .footer-left h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
